@@ -1,6 +1,6 @@
 import User from "../../domain/user/entity/user";
 import UserRepositoryInterface from "../../domain/user/repository/user.repository.interface";
-import CreateUserDto from "../dtos/create-user-dto";
+import CreateUserDto from "../dtos/create-user.dto";
 import { v4 as uuidv4 } from 'uuid';
 
 export default class CreateUserUseCase {
